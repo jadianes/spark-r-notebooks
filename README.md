@@ -1,4 +1,4 @@
-# Spark R Notebooks  
+# SparkR Notebooks  
 
 This is a collection of [Jupyter](https://jupyter.org/) 
 notebooks intended to train the reader on different [Apache Spark](http://spark.apache.org/) concepts, from 
