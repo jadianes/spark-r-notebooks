@@ -12,9 +12,30 @@ using Python and R.
 
 ## Datasets  
 
+#### [2013 American Community Survey dataset from Kaggle](https://www.kaggle.com/c/2013-american-community-survey).  
+
+Every year, the US Census Bureau runs the American Community Survey. In this survey, approximately 3.5 million households are asked detailed questions about who they are and how they live. Many topics are covered, including ancestry, education, work, transportation, internet use, and residency. Although this data is public, we will us the file published on Kaggle.   
+
 
 ## Notebooks  
 
+#### [SparkR basics: SparkSQL, Data Frames, and loading data]()  
+
+About starting up with SparkR and loading the [2013 American Community Survey dataset from Kaggle](https://www.kaggle.com/c/2013-american-community-survey).  
+
+#### [Exploratory Data Analysis with SparkR]()
+
+More advanced use of SparkSQL and R in order to perform Exploratory Data Analysis on the [2013 American Community Survey dataset from Kaggle](https://www.kaggle.com/c/2013-american-community-survey).    
+
+#### [Linear Models]()  
+
+Since version 1.5, SparkR allows the fitting of generalized linear models over DataFrames using the [`glm()`](http://spark.apache.org/docs/latest/api/R/glm.html) function. In this notebook we use that to make predictions in the [2013 American Community Survey dataset from Kaggle](https://www.kaggle.com/c/2013-american-community-survey). 
 
 ## Applications  
+
+#### [Spark and R, powerful allies]()  
+
+A use case on how to use SparkR to process large datasets as part of our usual R Exploratory Data Analysis pipeline. Here we will be using other R ecosystem tools such as [ggplot2](http://ggplot2.org/), etc. to perform single and multiple variable analysis and visualisations on the [2013 American Community Survey dataset from Kaggle](https://www.kaggle.com/c/2013-american-community-survey). 
+
+
 
