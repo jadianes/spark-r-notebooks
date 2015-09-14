@@ -1,0 +1,12 @@
+ipython_notebook_spark.out
+*.gz
+*.pyc
+**/.ipynb_checkpoints/
+.ipynb_checkpoints/
+**/metastore_db/
+**/derby.log
+**/rsconnect/
+
+.Rhistory
+**/*.csv
+
