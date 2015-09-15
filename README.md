@@ -66,11 +66,5 @@ More advanced use of SparkSQL and R in order to perform Exploratory Data Analysi
 
 Since version 1.5, SparkR allows the fitting of generalized linear models over DataFrames using the [`glm()`](http://spark.apache.org/docs/latest/api/R/glm.html) function. In this notebook we use that to make predictions in the [2013 American Community Survey dataset from Kaggle](https://www.kaggle.com/c/2013-american-community-survey). 
 
-## Applications  
-
-#### [Spark and R, powerful allies](https://github.com/jadianes/spark-r-notebooks/blob/master/applications/spark-and-r-powerful-allies.ipynb)  
-
-A use case on how to use SparkR to process large datasets as part of our usual R Exploratory Data Analysis pipeline. Here we will be using other R ecosystem tools such as [ggplot2](http://ggplot2.org/), etc. to perform single and multiple variable analysis and visualisations on the [2013 American Community Survey dataset from Kaggle](https://www.kaggle.com/c/2013-american-community-survey). 
-
 
 
