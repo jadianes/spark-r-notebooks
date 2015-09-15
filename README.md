@@ -39,10 +39,8 @@ ancestry, education, work, transportation, internet use, and residency. You can 
 [the source](http://www.census.gov/programs-surveys/acs/data/summary-file.html) 
 in order to know more about the data and get files for different years, longer periods, individual states, etc. 
 
-In any case, the [first notebook](https://github.com/jadianes/spark-r-notebooks/blob/ma≈ster/notebooks/nb1-spark-sql-basics/nb1-spark-sql-basics.ipynb) 
+In any case, the [starting up notebook](https://github.com/jadianes/spark-r-notebooks/blob/master/notebooks/nb0-starting-up/nb0-starting-up.ipynb) 
 will download the 2013 data locally for later use with the rest of the notebooks. 
-There we will also load our first data frame and get to know each feature. A description of each of them can be 
-seen [here](http://www2.census.gov/programs-surveys/acs/tech_docs/pums/data_dict/PUMSDataDict13.txt).  
 
 The idea of using this dataset came from being recently [announced in Kaggle](https://www.kaggle.com/c/2013-american-community-survey)
  as part of their Kaggle scripts datasets. There you will be able to analyse the dataset on site, while sharing your results with other Kaggle
@@ -54,5 +52,6 @@ users. Highly recommended!
 
 Where we download our data locally and start up a SparkR cluster.  
 
+#### [SparkSQL basics with SparkR](https://github.com/jadianes/spark-r-notebooks/blob/ma≈ster/notebooks/nb1-spark-sql-basics/nb1-spark-sql-basics.ipynb)  
 
-
+About loading our data into SparkSQL data frames using SparkR.  
