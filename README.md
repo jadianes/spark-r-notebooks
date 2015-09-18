@@ -9,7 +9,7 @@ using Python and R. Additionally, if you are interested in using Python with Spa
 
 ## Instructions  
 
-For these series of notebooks, we have used Jupyter with the [IRkernel](http://irkernel.github.io/) R kernel. You can find 
+For these series of notebooks, we have used [Jupyter](https://jupyter.org/) with the [IRkernel](http://irkernel.github.io/) R kernel. You can find 
 installation instructions for you specific setup [here](http://irkernel.github.io/installation/).  
 
 A good way of using these notebooks is by first cloning the repo, and then 
@@ -55,3 +55,8 @@ Where we download our data locally and start up a SparkR cluster.
 #### [SparkSQL basics with SparkR](https://github.com/jadianes/spark-r-notebooks/blob/ma≈ster/notebooks/nb1-spark-sql-basics/nb1-spark-sql-basics.ipynb)  
 
 About loading our data into SparkSQL data frames using SparkR.  
+
+#### [Data frame operations with SparkSQL and SparkR](https://github.com/jadianes/spark-r-notebooks/blob/ma≈ster/notebooks/nb2-spark-sql-operations/nb2-spark-sql-operations.ipynb)  
+
+Different operations we can use with SparkR and `DataFrame` objects, such as data selection and filtering, aggregations, and sorting. The basis for exploratory data analysis and machine learning.  
+
