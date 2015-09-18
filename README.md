@@ -9,7 +9,7 @@ using Python and R. Additionally, if you are interested in using Python with Spa
 
 ## Instructions  
 
-For these series of notebooks, we have used [Jupyter](https://jupyter.org/) with the [IRkernel](http://irkernel.github.io/) R kernel. You can find installation instructions for you specific setup [here](http://irkernel.github.io/installation/). Have also a look at [Andrie de Vries]() post [Using R with Jupyter Notebooks](http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html) that includes instructions of installing Jupyter and IRkernel together.   
+For these series of notebooks, we have used [Jupyter](https://jupyter.org/) with the [IRkernel](http://irkernel.github.io/) R kernel. You can find installation instructions for you specific setup [here](http://irkernel.github.io/installation/). Have also a look at [Andrie de Vries]() post [Using R with Jupyter Notebooks](http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html) that includes instructions for installing Jupyter and IRkernel together.   
 
 A good way of using these notebooks is by first cloning the repo, and then 
 starting your [Jupyter](https://jupyter.org/) in **pySpark mode**. For example, 
