@@ -52,11 +52,11 @@ users. Highly recommended!
 
 Where we download our data locally and start up a SparkR cluster.  
 
-#### [SparkSQL basics with SparkR](https://github.com/jadianes/spark-r-notebooks/blob/ma≈ster/notebooks/nb1-spark-sql-basics/nb1-spark-sql-basics.ipynb)  
+#### [SparkSQL basics with SparkR](https://github.com/jadianes/spark-r-notebooks/blob/master/notebooks/nb1-spark-sql-basics/nb1-spark-sql-basics.ipynb)  
 
 About loading our data into SparkSQL data frames using SparkR.  
 
-#### [Data frame operations with SparkSQL and SparkR](https://github.com/jadianes/spark-r-notebooks/blob/ma≈ster/notebooks/nb2-spark-sql-operations/nb2-spark-sql-operations.ipynb)  
+#### [Data frame operations with SparkSQL and SparkR](https://github.com/jadianes/spark-r-notebooks/blob/master/notebooks/nb2-spark-sql-operations/nb2-spark-sql-operations.ipynb)  
 
 Different operations we can use with SparkR and `DataFrame` objects, such as data selection and filtering, aggregations, and sorting. The basis for exploratory data analysis and machine learning.  
 
