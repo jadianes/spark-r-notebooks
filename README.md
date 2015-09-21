@@ -59,3 +59,7 @@ About loading our data into SparkSQL data frames using SparkR.
 
 Different operations we can use with SparkR and `DataFrame` objects, such as data selection and filtering, aggregations, and sorting. The basis for exploratory data analysis and machine learning.  
 
+#### [Exploratory Data Analysis with SparkR and ggplot2](https://github.com/jadianes/spark-r-notebooks/blob/master/notebooks/nb3-eda/nb3-eda.ipynb)  
+
+How to explore different types of variables using SparkR and ggplot2 charts.  
+
