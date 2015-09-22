@@ -63,3 +63,8 @@ Different operations we can use with SparkR and `DataFrame` objects, such as dat
 
 How to explore different types of variables using SparkR and ggplot2 charts.  
 
+
+#### [Linear Models with SparkR](https://github.com/jadianes/spark-r-notebooks/blob/master/notebooks/nb4-linear_models/nb4-linear-models.ipynb)  
+
+About linear models using SparkR, its uses and current limitations in v1.5.  
+
