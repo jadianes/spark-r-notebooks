@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>SparkR notebooks by jadianes</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>SparkR notebooks</h1>
+        <p> R on Spark (SparkR) tutorials for Big Data analysis and Machine Learning as IPython / Jupyter notebooks</p>
+
+        <p class="view"><a href="https://github.com/jadianes/spark-r-notebooks">View the Project on GitHub <small>jadianes/spark-r-notebooks</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/jadianes/spark-r-notebooks/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/jadianes/spark-r-notebooks/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/jadianes/spark-r-notebooks">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="sparkr-notebooks" class="anchor" href="#sparkr-notebooks" aria-hidden="true"><span class="octicon octicon-link"></span></a>SparkR Notebooks</h1>
+
+<p>This is a collection of <a href="https://jupyter.org/">Jupyter</a> 
+notebooks intended to train the reader on different <a href="http://spark.apache.org/">Apache Spark</a> concepts, from 
+basic to advanced, by using the <strong>R</strong> language.  </p>
+
+<p>If your are interested in being introduced to some basic Data Science Engineering concepts and applications, you might find <a href="https://github.com/jadianes/data-science-your-way">these series of tutorials</a> interesting. There we explain different concepts and applications 
+using Python and R. Additionally, if you are interested in using Python with Spark, you can have a look at our <a href="">pySpark notebooks</a>.    </p>
+
+<h2>
+<a id="instructions" class="anchor" href="#instructions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Instructions</h2>
+
+<p>For these series of notebooks, we have used <a href="https://jupyter.org/">Jupyter</a> with the <a href="http://irkernel.github.io/">IRkernel</a> R kernel. You can find installation instructions for you specific setup <a href="http://irkernel.github.io/installation/">here</a>. Have also a look at <a href="https://twitter.com/RevoAndrie">Andrie de Vries</a> post <a href="http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html">Using R with Jupyter Notebooks</a> that includes instructions for installing Jupyter and IRkernel together.   </p>
+
+<p>A good way of using these notebooks is by first cloning the repo, and then 
+starting your <a href="https://jupyter.org/">Jupyter</a> in <strong>pySpark mode</strong>. For example, 
+if we have a <em>standalone</em> Spark installation running in our <code>localhost</code> with a 
+maximum of 6Gb per node assigned to IPython:  </p>
+
+<pre><code>MASTER="spark://127.0.0.1:7077" SPARK_EXECUTOR_MEMORY="6G" IPYTHON_OPTS="notebook --pylab inline" ~/spark-1.5.0-bin-hadoop2.6/bin/pyspark
+</code></pre>
+
+<p>Notice that the path to the <code>pyspark</code> command will depend on your specific 
+installation. So as requirement, you need to have
+<a href="https://spark.apache.org/docs/latest/index.html">Spark installed</a> in 
+the same machine you are going to start the <code>IPython notebook</code> server.     </p>
+
+<p>For more Spark options see <a href="https://spark.apache.org/docs/latest/spark-standalone.html">here</a>. In general it works the rule of passign options 
+described in the form <code>spark.executor.memory</code> as <code>SPARK_EXECUTOR_MEMORY</code> when
+calling IPython/pySpark.   </p>
+
+<h2>
+<a id="datasets" class="anchor" href="#datasets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Datasets</h2>
+
+<h4>
+<a id="2013-american-community-survey-dataset" class="anchor" href="#2013-american-community-survey-dataset" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="http://www.census.gov/programs-surveys/acs/data/summary-file.html">2013 American Community Survey dataset</a>
+</h4>
+
+<p>Every year, the US Census Bureau runs the American Community Survey. In this survey, approximately 3.5 million 
+households are asked detailed questions about who they are and how they live. Many topics are covered, including 
+ancestry, education, work, transportation, internet use, and residency. You can directly to 
+<a href="http://www.census.gov/programs-surveys/acs/data/summary-file.html">the source</a> 
+in order to know more about the data and get files for different years, longer periods, individual states, etc. </p>
+
+<p>In any case, the <a href="https://github.com/jadianes/spark-r-notebooks/blob/master/notebooks/nb0-starting-up/nb0-starting-up.ipynb">starting up notebook</a> 
+will download the 2013 data locally for later use with the rest of the notebooks. </p>
+
+<p>The idea of using this dataset came from being recently <a href="https://www.kaggle.com/c/2013-american-community-survey">announced in Kaggle</a>
+ as part of their Kaggle scripts datasets. There you will be able to analyse the dataset on site, while sharing your results with other Kaggle
+users. Highly recommended!  </p>
+
+<h2>
+<a id="notebooks" class="anchor" href="#notebooks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Notebooks</h2>
+
+<h4>
+<a id="downloading-data-and-starting-with-sparkr" class="anchor" href="#downloading-data-and-starting-with-sparkr" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://github.com/jadianes/spark-r-notebooks/blob/master/notebooks/nb0-starting-up/nb0-starting-up.ipynb">Downloading data and starting with SparkR</a>
+</h4>
+
+<p>Where we download our data locally and start up a SparkR cluster.  </p>
+
+<h4>
+<a id="sparksql-basics-with-sparkr" class="anchor" href="#sparksql-basics-with-sparkr" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://github.com/jadianes/spark-r-notebooks/blob/master/notebooks/nb1-spark-sql-basics/nb1-spark-sql-basics.ipynb">SparkSQL basics with SparkR</a>
+</h4>
+
+<p>About loading our data into SparkSQL data frames using SparkR.  </p>
+
+<h4>
+<a id="data-frame-operations-with-sparksql-and-sparkr" class="anchor" href="#data-frame-operations-with-sparksql-and-sparkr" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://github.com/jadianes/spark-r-notebooks/blob/master/notebooks/nb2-spark-sql-operations/nb2-spark-sql-operations.ipynb">Data frame operations with SparkSQL and SparkR</a>
+</h4>
+
+<p>Different operations we can use with SparkR and <code>DataFrame</code> objects, such as data selection and filtering, aggregations, and sorting. The basis for exploratory data analysis and machine learning.  </p>
+
+<h4>
+<a id="exploratory-data-analysis-with-sparkr-and-ggplot2" class="anchor" href="#exploratory-data-analysis-with-sparkr-and-ggplot2" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://github.com/jadianes/spark-r-notebooks/blob/master/notebooks/nb3-eda/nb3-eda.ipynb">Exploratory Data Analysis with SparkR and ggplot2</a>
+</h4>
+
+<p>How to explore different types of variables using SparkR and ggplot2 charts.  </p>
+
+<h4>
+<a id="linear-models-with-sparkr" class="anchor" href="#linear-models-with-sparkr" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://github.com/jadianes/spark-r-notebooks/blob/master/notebooks/nb4-linear-models/nb4-linear-models.ipynb">Linear Models with SparkR</a>
+</h4>
+
+<p>About linear models using SparkR, its uses and current limitations in v1.5.  </p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/jadianes">jadianes</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
