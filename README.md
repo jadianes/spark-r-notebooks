@@ -1,3 +1,5 @@
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jadianes/spark-r-notebooks/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 # SparkR Notebooks  
 
 This is a collection of [Jupyter](https://jupyter.org/) 
@@ -73,8 +75,4 @@ About linear models using SparkR, its uses and current limitations in v1.5.
 #### [Exploring geographical data with SparkR and ggplot2](https://github.com/jadianes/spark-r-notebooks/blob/master/applications/exploring-maps/exploring-maps.ipynb)  
 
 An Exploratory Data Analysis of the [2013 American Community Survey](http://www.census.gov/programs-surveys/acs/data/summary-file.html) dataset, more concretely its geographical features.  
-
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jadianes/spark-r-notebooks/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
