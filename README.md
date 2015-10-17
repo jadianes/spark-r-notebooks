@@ -1,5 +1,3 @@
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jadianes/spark-r-notebooks/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
 # SparkR Notebooks  
 
 This is a collection of [Jupyter](https://jupyter.org/) 
