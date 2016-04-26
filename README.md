@@ -78,7 +78,7 @@ An Exploratory Data Analysis of the [2013 American Community Survey](http://www.
 
 ## Contributing
 
-Contributions are welcome!  For bug reports or requests please [submit an issue](https://github.com/jadianes/spark-py-notebooks/issues).
+Contributions are welcome!  For bug reports or requests please [submit an issue](https://github.com/jadianes/spark-r-notebooks/issues).
 
 ## Contact  
 
