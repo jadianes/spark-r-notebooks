@@ -110,9 +110,3 @@ The content developed by Jose A. Dianes is distributed under the following licen
     See the License for the specific language governing permissions and
     limitations under the License.
 
-## Donate  
-
-If you find these tutorials useful then you can help me to keep them updated ;)  
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EJ54869W5H3KJ)  
-
